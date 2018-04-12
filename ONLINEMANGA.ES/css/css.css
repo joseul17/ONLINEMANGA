@@ -1,0 +1,208 @@
+
+
+* {
+    /* Triem els margins i paddings dels elements */
+    margin: 8px;;
+    padding: 5px;
+    background-color: black;
+    
+}
+
+
+@media (min-width:480px) {
+    header {
+    height: 250px;
+    width: 100%;
+    background-image: url(../imgs/bgonlinemaga.png);
+    background-repeat: no-repeat;
+    margin-right: 0px;
+    margin-left: 0px;
+    margin-top: 0px;
+    background-size: 100%;
+    }
+}
+
+@media (min-width:768px) {
+    header {
+    height: 250px;
+    width: 100%;
+    background-image: url(../imgs/bgonlinemaga.png);
+    background-repeat: no-repeat;
+    margin-right: 0px;
+    margin-left: 0px;
+    margin-top: 0px;
+    background-size: 100%;
+    }
+}
+
+@media (min-width:1024px) {
+    header {
+    height: 300px;
+    width: 100%;
+    background-image: url(../imgs/bgonlinemaga.png);
+    background-repeat: no-repeat;
+    margin-right: 0px;
+    margin-left: 0px;
+    margin-top: 0px;
+    background-size: 100%;
+    }
+}
+
+nav {
+    background-color: #040404;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background-color: #040404;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 10px;
+    background-color: #040404;
+}
+
+nav ul li a {
+    color: white;
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    background-color: #040404;
+}
+
+nav ul li a:hover {
+    background-color: #c80404;
+    border-radius: 50px;
+}
+
+section {
+    color: white;
+}
+
+footer {
+    background-color: #040404; 
+    font-family: Arial;
+}
+
+footer p {
+    color: white;
+    text-align: center;
+    font-size: 1.2em;
+    background: none;
+    line-height: 22px;
+}
+
+footer img {
+    height: 50px;
+    width: 50px;
+    display: block;
+    margin: auto;
+    background: none;
+}
+
+footer img.avatar {
+    /* cambia estos dos valores para definir el tamaño de tu círculo */
+    height: 80px;
+    width: 80px;
+    background-color: #b80b0c;
+    /* los siguientes valores son independientes del tamaño del círculo */
+    background-repeat: no-repeat;
+    background-position: 50%;
+    border-radius: 50%;
+    background-size: 100% auto;
+}
+
+footer p.cargo {
+    color: white;
+    background: none;
+    text-align: center;
+    line-height: 2px;
+    font-size: 0.9em;
+}
+
+footer p.nombre {
+    color: white;
+    background: none;
+    text-align: center;
+    padding: 0;
+    font-size: 1.1em;
+}
+
+footer a {
+    background: none;
+    color: #7bcce4;
+    display: block;
+    margin: auto;
+    line-height:5px;
+    text-decoration: none;
+}
+
+ hr { 
+    border: none; 
+    background-color: dimgrey;
+    border-radius: 200px /8px; 
+    height: 0px; 
+    text-align: center; 
+ } 
+
+
+p.copyright {
+    font-size: 0.6em;
+    color: dimgrey;
+}
+
+section {
+    background-color: #ebebeb;
+    border: 4px double #c80404;
+}
+
+section article h2 {
+    border: 4px dotted #c80404;
+    background: whitesmoke;
+    color: #c80404;
+}
+
+section article {
+    background: none;
+}
+
+section ul {
+    background: none;
+    list-style: none;
+    display: block;
+}
+
+section ul li {
+    background: none;
+    text-decoration: none;
+    display: inline-block;
+    padding: 0;
+    padding-top: 2px;
+}
+
+section ul li div {
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 0.8em;
+    font-weight: bold;
+    border-radius: 50%;
+}
+
+section ul li img {
+    height: 290px;
+    width: auto;
+}
+
+section ul li a {
+    text-decoration: none;
+    background: none;
+}
+
+section ul li img:hover {
+    filter: grayscale(80%);
+    transform: rotate(6deg) scale(1.1);
+}
